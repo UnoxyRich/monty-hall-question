@@ -5,6 +5,7 @@ def monty_hall(num_trials, switch=True):
 
     for _ in range(num_trials):
 
+#0 contains goat, and 1 contains prize        
         doors = [0, 0, 0]  
         car_position = random.randint(0, 2)  
         doors[car_position] = 1  
